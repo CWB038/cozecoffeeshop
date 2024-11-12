@@ -1,0 +1,152 @@
+#header-text {
+    font-weight: bolder;
+}
+
+#header-desc {
+    font-style: italic;
+}
+
+#header-menu {
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #3E2723;
+}
+
+/* Navbar brand logo */
+.brand-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+
+.logo-text {
+    font-size: 0.8em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+/* Section padding */
+.menu-section, .specials-section, .contact-section, .gallery-section {
+    padding: 50px 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header text styling */
+.header-text h1 {
+    font-size: 2.5em;
+    font-weight: bolder;
+    color: white;
+}
+
+.header-text {
+    text-align: center;
+    color: white;
+    margin-top: 20vh;
+    font-weight: bold;
+}
+
+/* Header Parallax */
+#parallax-header {
+    height: 600px; /* Adjust height as needed */
+    width: 99vw; /* Full viewport width */
+    margin: 0%;
+    overflow: hidden;
+}
+
+#parallax-header .parallax img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+/* Card styling */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.card-image img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Styling for card content and action */
+.card-content {
+    padding: 15px;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.card-action a {
+    color: #3E2723;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card-action a:hover {
+    color: #5D4037;
+}
+
+/* Carousel styling */
+.carousel {
+    margin-top: 20px;
+    height: 400px; /* Adjust height as needed */
+}
+
+.carousel .carousel-item img {
+    border-radius: 10px;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Carousel indicators */
+.carousel .indicators .indicator-item {
+    background-color: #3E2723;
+    opacity: 0.5;
+}
+
+.carousel .indicators .indicator-item.active {
+    background-color: #FFD54F;
+    opacity: 1;
+}
